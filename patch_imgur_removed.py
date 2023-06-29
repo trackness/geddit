@@ -15,4 +15,4 @@ for key in data:
         data.pop(key)
     
 with open(path, "w") as f:
-    json.dump(data)
+    json.dump(data, f)
